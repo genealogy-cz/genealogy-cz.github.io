@@ -183,7 +183,7 @@ body {
 
 .background-photo {
 /*    height: 300px;*/
-    background-image: none;
+    background-image: url(/img/photos/granite-mountain-records-vault-film-cabinets-692652-tablet.jpg);
     width: 100%;  
     background-size: 100%;
 /*    background-size: contain;*/
@@ -209,9 +209,6 @@ body {
         padding-right: 30%;
     }
 */
-    .background-photo {
-        background-image: url(/img/photos/granite-mountain-records-vault-film-cabinets-692652-tablet.jpg);
-    }
     #search-container {
 /*        margin-top: 10%;*/
         margin-bottom: 30px;
