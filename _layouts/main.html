@@ -1,0 +1,275 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="{{page.lang}}">
+    <head>        
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <title>{{page.title}}</title>
+    
+    <link rel="icon" type="image/png" href="/img/favicons/favicon-16x16.png" sizes="16x16">
+        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+        
+    <link rel="stylesheet" href="/css/layout.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>            
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js" type="text/javascript"></script>
+        
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+    </script>
+
+    <!--    <script type="text/javascript" src="/js/ajaxify.min.js"></script>-->    
+<!--    <script type="text/javascript" src="/js/jquery.history.js"></script>-->
+    <script type="text/javascript" src="/js/navbar.js"></script>
+    <script type="text/javascript" src="/js/locale.js"></script>    
+
+  </head>
+    
+<body data-spy="scroll" data-target=".navbar" data-offset="200">    
+    <div id="home-page-header" class="background-photo">
+            
+        <div class="container">
+        <div class="row" style="padding-top: 5px;">
+          <div id="language-selector" class="centered-pills">
+            <ul class="nav nav-pills pull-right-sm">
+<!--
+              <li class="">
+                <a id="signup" href="#" class="btn" style="line-height: 30px;"><span class="glyphicon glyphicon-user"></span> Войти</a>
+              </li>
+-->
+			  <li id="cs-cz">
+                <a href="#" data-placement="bottom" data-toggle="tooltip" title="Čeština"><img src="/img/flags/32/cz.png"></a>
+              </li>
+              <li id="en-us">
+                <a href="#" data-placement="bottom" data-toggle="tooltip" title="English"><img src="/img/flags/32/us.png"></a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>            
+            
+        <div id="search-container" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <img src="/img/banner/{{page.banner}}" class="img-responsive" style="padding-left: 5pt;">
+                    </div>
+                    <div id="searchbar" class="input-group input-group-lg" style="margin-top:20px;">
+                      <input id="search-input" class="form-control form-control-inline" type="search" placeholder="{{page.search-ph}}" style="background-color: #F2EBD8;">
+                      <span class="input-group-btn"  style="padding-left: 2px;">
+                        <button class="btn btn-lg btn-primary" type="button">
+                          <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                      </span>
+                    </div>
+
+                    <div id="motto" class="text-center" style="color: #F2EBD8;">
+                        <h2>{{page.motto}}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+    </div>
+</div>
+    
+<!--    <div id="mailmenu" class="section">-->
+        <nav id="a" class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainmenu-collapsed" aria-expanded="false">
+                <div>
+                    <span class="sr-only">{{page.menu-sr}}</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </div>
+              </button>
+                
+                <a id="brand" class="navbar-brand" href="#" style="display:none; color:white;">
+                    {{page.menu-title}}
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="mainmenu-collapsed">
+              <ul class="nav navbar-nav">
+                  <li id="home-item" style="display:none;">
+                      <a href="#home-page-header">
+                        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+                        <span class="sr-only">{{page.menu-home-sr}}</span> 
+                      </a>
+                  </li>
+                  <li id="search-item" style="display:none;"><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>                  
+                  
+              </ul>    
+                
+              <ul class="nav navbar-nav navbar-right">                  
+                  <li><a href="#intro">
+                      {{page.menu-intro}}
+                    </a></li>
+                  <li><a href="#offer">
+						{{page.menu-offer}}
+                      </a></li>
+                  <li><a href="#info">
+						{{page.menu-info}}
+                      </a></li>
+                  <li><a href="#plans">
+						{{page.menu-plans}}
+                      </a></li>
+                  <li><a href="#contact">
+						{{page.menu-contact}}
+                      </a></li>
+                  <li></li>
+              </ul>
+
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+            <div id="nav-bottom"></div>
+        </nav>
+<!--    </div>-->
+    
+<!--    <div id="study" class="bookmark"></div>-->
+    <div id="intro" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-primary text-center">{{page.title-intro}}</h1>
+                    
+                    {% capture intro %}{% include intro_{{page.lang}}.md %}{% endcapture %}
+                    {{ intro | markdownify }}
+                                        
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="offer" class="section even">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-primary text-center">{{page.title-offer}}</h1>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="/img/photos/Motylek.jpg" class="img-responsive pull-right">
+                        </div>
+                        <div class="col-md-6">
+                            {% capture offer %}{% include offer_{{page.lang}}.md %}{% endcapture %}
+                    {{ offer | markdownify }}
+                                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="info" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-primary text-center">{{page.title-info}}</h1>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="/img/photos/Vejir.jpg" class="img-responsive pull-right">
+                        </div>
+                        <div class="col-md-8">
+                            {% capture info %}{% include info_{{page.lang}}.md %}{% endcapture %}
+                    {{ info | markdownify }}
+                                                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="plans" class="section even">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-primary text-center">{{page.title-plans}}</h1>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="/img/photos/Matrika.jpg" class="img-responsive pull-right">
+                        </div>
+                        <div class="col-md-6">
+                            {% capture plans %}{% include plans_{{page.lang}}.md %}{% endcapture %}
+                    {{ plans | markdownify }}
+
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="contact" class="section">
+       <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="text-primary text-center">{{page.title-contact}}</h1>
+                    <div class="row">
+                        <div class="col-md-4 text-right">
+                            <img src="/img/photos/Simona-9.jpg" class="img-responsive pull-right">
+                        </div>
+                        <div class="col-md-8">
+        {% capture contact %}{% include contact_{{page.lang}}.md %}{% endcapture %}
+                    {{ contact | markdownify }}
+        
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div> 
+    </div>
+    
+    
+<!--    <div id="footer" class="section">-->
+      <div id="footer-top" class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">                  
+                <span class="navbar-text">
+
+                </span>
+          </div>
+        </div>
+      </div>
+        
+      <div id="footer-bottom" class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+              <p class="social-media">
+                  <a href="http://facebook.com/genealogy-cz" target="_blank">
+                    <img class="social" width="48" height="48" title="Facebook" src="/img/social/facebook.png" style="padding:9px;">
+                  </a>
+                  <a href="http://twitter.com/genealogy_cz" target="_blank">
+                  <img class="social" width="48" height="48" title="Twitter" src="/img/social/twitter.png" style="padding:9px;color: #f5f5f5;">
+                  </a>
+                    <a href="#"  target="_blank">    
+                      <img class="social" width="48" height="48" title="Google+" src="/img/social/gplus.png" style="padding:9px;">
+                  </a>
+                  <a href="https://www.linkedin.com/company/genealogy-cz" target="_blank">
+                    <img class="social" width="48" height="48" title="LinkedIn" src="/img/social/linkedin.png" style="padding:9px;">
+                  </a>
+                  <a href="#" target="_blank">
+                    <img class="social" width="48" height="48" title="YouTube" src="/img/social/youtube.png" style="padding:9px;">
+                  </a>
+                  <a href="">
+                    <img class="social" width="48" height="48" title="RSS" src="/img/social/rss.png" style="padding:9px;">
+                  </a>
+
+              </p>
+          </div>
+        </div>
+      </div>
+<!--    </div>-->
+
+<!--    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-56cf4e6018e0fc4f" async="async"></script>-->
+
+    </body>
+</html>

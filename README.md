@@ -1,1 +1,1 @@
-# genealogy-cz.github.io
+# www.genealogy-cz.com

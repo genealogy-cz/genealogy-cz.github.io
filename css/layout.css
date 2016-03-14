@@ -1,0 +1,334 @@
+/*
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style:  normal;
+  font-weight: 400;
+  src: url(link-to-proxima-nova-font.woff) format('woff');
+}
+*/
+
+h1 {
+    padding-bottom: 10pt;
+}
+
+.section img {
+    padding-right: 10pt;
+    padding-top: 7pt;
+}
+
+.even {
+    background-color: #F2EBD8;
+}
+
+#footer-top {
+    background-color: #303030;
+    height: 60px;
+}
+
+#footer-bottom {
+    background-color: #555;
+/*
+    top: auto;
+    bottom: 0;    
+*/
+}
+
+.social:hover {
+    background-color: #404040;
+}
+
+.social-btn {
+    margin-top: 6px;
+    margin-right: 2px;
+    min-width: 270px;
+    width: 100%; /* small screens only */
+    text-align: left;
+}
+
+.bookmark {
+/*    padding-top: 190px;*/
+    
+/*
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+*/
+    
+/*
+    padding-top: 190px;
+    margin-top: -190px;
+    display: inline-block;  required for webkit browsers 
+*/
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    position: relative; /* for scrollspy */
+    height: 100%;       /* for scrollspy*/
+}
+
+.section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#motto {
+    margin-top: 10px;
+}
+
+/*
+#brand span {
+    color: white;
+}
+*/
+
+#search-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+#study {
+    background-color: azure;
+}
+
+#teach {
+    background-color: white;
+    
+}
+
+#teach {
+    background-color: azure;
+}
+
+#news {
+    background-color: azure;
+}
+
+#members {
+    background-color: floralwhite;
+}
+
+#teachers {
+    background-color: azure;
+}
+
+#social {
+    background-color: white;
+}
+
+
+.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+/*
+    -webkit-transition: all 2s ease-in;
+    transition: all 1s ease-in;
+*/
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+.navbar
+{
+   -webkit-backface-visibility: hidden;
+}
+
+/*
+.divider-vertical {
+    height: 40px;
+    margin: 0 9px;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #ffffff;
+}
+*/
+
+/*
+ Center nav-pills 
+.center-pills { display: inline-block; }
+*/
+
+/* Block pull-right on small screens */
+.pull-right-sm {
+    float: none;
+}
+
+
+/* http://www.himpfen.com/center-align-bootstrap-nav-pills/ */
+.centered-pills {
+    text-align: center
+}
+.centered-pills ul.nav-pills {
+    display: inline-block
+}
+.centered-pills li {
+    display: inline
+}
+.centered-pills a {
+    float: left
+}
+* html .centered-pills ul.nav-pills, *+html .centered-pills ul.nav-pills {
+    display: inline
+}
+
+.background-photo {
+/*    height: 300px;*/
+    background-image: none;
+    width: 100%;  
+    background-size: 100%;
+/*    background-size: contain;*/
+    background-repeat: no-repeat;
+/*    background-position: none;*/
+    position: relative;    
+}
+
+/* Custom */ 
+@media only screen and (min-width : 320px) {
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    .pull-right-sm {
+        float: right;
+    }
+/*
+    #search-container{
+        padding-left: 10%;
+        margin-top: 0;
+        padding-right: 30%;
+    }
+*/
+    .background-photo {
+        background-image: url(/img/photos/granite-mountain-records-vault-film-cabinets-692652-tablet.jpg);
+    }
+    #search-container {
+/*        margin-top: 10%;*/
+        margin-bottom: 30px;
+/*
+        padding-left: 10%;
+        padding-right: 30%;
+*/
+    }
+    #motto {
+        margin-top: 40px;    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    #search-container{
+        padding-left: 10%;
+        padding-right: 30%;
+        margin-top: 10%;
+        margin-bottom: 80px;
+    }
+    .background-photo {
+/*        height: 600px;*/
+    }    
+    }
+/*
+    .social-btn {
+        width: auto;
+    }
+*/
+/*
+    #search-container {
+        margin-top: 10%;
+        margin-bottom: 80px;
+    }
+*/
+    
+/* Centered (only when not collapsed) */
+/*
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+*/
+    
+/*
+    .navbar .navbar-collapse {
+        max-height: 200px;
+        overflow-y: auto;
+    }
+*/
+    
+/* Justified (only when not collapsed) */
+/*
+    .navbar-nav {
+        margin: 0 auto;
+        display: table;
+        table-layout: auto;
+        float: none;
+        width: 100%;
+    }
+    .navbar-nav>li {
+        display: table-cell;
+        float: none;
+        text-align: center;
+    }
+*/
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    #search-container{
+        padding-left: 10%;
+        padding-right: 30%;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    #search-container{
+        padding-left: 10%;
+        padding-right: 30%;
+    }
+}
+
+/* Social media links on the footer */
+@media (max-width: 767px) {
+    .social-media {
+        text-align: center;
+        margin: 10px 0;
+    }
+    
+    #language-selector > .nav > li > a > img {
+        max-width: 24px;
+    }
+}
+
+@media (min-width: 768px) {
+    .social-media {
+        text-align: right;
+        margin: 10px 0;
+    }
+/*
+    .section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+*/
+}
+
+/* Social media buttons */
+@media only screen and (min-width : 595px) {
+    .social-btn {
+        width: auto;
+    }
+}
