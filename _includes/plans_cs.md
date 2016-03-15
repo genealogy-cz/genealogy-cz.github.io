@@ -1,16 +1,15 @@
-Celková cena rodokmenu závisí na množství informací, které chcete o každé osobe znát.
+Celková cena rodokmenu závisí na množství informací, které chcete o každé osobě znát.
 
-Existují 3 druhy záznamu:
-    
+Existují 3 druhy záznamů:
+
 * místo a datum narození (matrika narozených)
 
-* místo a datum snatku (matrika oddaných)
+* místo a datum sňatku (matrika oddaných)
 
-* místo a datum úmrtí (matrika zemrelých)
-
+* místo a datum úmrtí (matrika zemřelých)
 
 1 záznam = 100 Kč
 
-Základní údaje tvorí narození a snatek.
+Základní údaje tvoří narození a sňatek.
 
-Behem sestavování rodokmenu budete prubežne informováni o cene a množství informací dosud obsažených ve Vašem rodokmenu. Sami si tak budete moci urcit, kolik penez chcete do rodokmenu investovat.
+Během sestavování rodokmenu budete průběžně informováni o ceně a množství informací dosud obsažených ve Vašem rodokmenu. Sami si tak budete moci určit, kolik peněz chcete do rodokmenu investovat.

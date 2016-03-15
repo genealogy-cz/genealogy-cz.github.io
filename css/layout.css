@@ -1,3 +1,17 @@
+.navbar .navbar-collapse {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+@media only screen and (min-height : 380px) {
+    .navbar .navbar-collapse {
+    max-height: none;
+    overflow-y: hidden;
+}
+}
+
+
+
 /*
 @font-face {
   font-family: 'Proxima Nova';
@@ -14,6 +28,7 @@ h1 {
 .section img {
     padding-right: 10pt;
     padding-top: 7pt;
+    padding-bottom: 10pt;
 }
 
 .even {
@@ -163,7 +178,6 @@ body {
     float: none;
 }
 
-
 /* http://www.himpfen.com/center-align-bootstrap-nav-pills/ */
 .centered-pills {
     text-align: center
@@ -195,6 +209,20 @@ body {
 }
 
 
+@media only screen and (min-width : 530px) {
+    .background-photo {
+/*    height: 300px;*/
+/*    width: 100%;*/
+/*    height: 100%;  */
+/*    background-size: 100%;*/
+/*    background-size: contain;*/
+        background-size:100% auto;
+        background-repeat: no-repeat;
+    /*    background-position: none;*/
+        position: relative;    
+    }
+}
+
 /* Custom */ 
 @media only screen and (min-width : 320px) {
     
@@ -205,6 +233,8 @@ body {
     .pull-right-sm {
         float: right;
     }
+
+    
 /*
     #search-container{
         padding-left: 10%;
@@ -221,7 +251,18 @@ body {
 */
     }
     #motto {
-        margin-top: 40px;    
+        margin-top: 40px;        
+    }
+}
+
+#contact-text {
+    text-align: center;
+}
+
+@media only screen and (min-width : 992px) {
+    #contact-text {
+        text-align: left;
+    }
 }
 
 /* Small Devices, Tablets */
@@ -232,10 +273,8 @@ body {
         margin-top: 10%;
         margin-bottom: 80px;
     }
-    .background-photo {
-/*        height: 600px;*/
-    }    
-    }
+    
+}
 /*
     .social-btn {
         width: auto;
@@ -261,12 +300,7 @@ body {
     }
 */
     
-/*
-    .navbar .navbar-collapse {
-        max-height: 200px;
-        overflow-y: auto;
-    }
-*/
+    
     
 /* Justified (only when not collapsed) */
 /*
@@ -285,12 +319,23 @@ body {
 */
 }
 
+
+
+
+
+/*
+.navbar .navbar-collapse {
+    max-height: 100%;
+    overflow-y: hidden;
+}
+*/
+
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
     #search-container{
         padding-left: 10%;
         padding-right: 30%;
-    }
+    }    
 }
 
 /* Large Devices, Wide Screens */
@@ -324,17 +369,10 @@ body {
         padding-bottom: 30px;
     }
 */
-    .background-photo {
-/*    height: 300px;*/
-/*    width: 100%;*/
-/*    height: 100%;  */
-/*    background-size: 100%;*/
-/*    background-size: contain;*/
-    background-size:100% auto;
-    background-repeat: no-repeat;
-/*    background-position: none;*/
-    position: relative;    
-}
+    .section img {
+        padding-bottom: auto;
+    }
+    
 }
 
 /* Social media buttons */

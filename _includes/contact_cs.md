@@ -1,4 +1,4 @@
-Na spolupráci s Vámi se teší
+Na spolupráci s Vámi se těší 
 
 Simona Danielová
 

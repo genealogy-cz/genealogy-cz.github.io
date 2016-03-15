@@ -101,6 +101,12 @@
             }
         });
 
+        // Show brand on page reload
+        if ($('nav').hasClass('affix')) {
+            $('#brand').show();
+            $('#home-item').show();
+            $('#search-item').show();
+        }
         $('nav').on('affixed-top.bs.affix', function () {
             $('#brand').hide();
             $('#home-item').hide();
