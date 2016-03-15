@@ -4,7 +4,7 @@ There are three types of records:
     
 * date and place of birth (birth registries)
 
-* date and place marriages (registry of devorces)
+* date and place marriages (registry of divorces)
 
 * date and place of death (registry of deaths)
 
