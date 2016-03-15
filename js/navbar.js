@@ -29,6 +29,7 @@
 
     //    updateAffixTop();    
 //        alert("!!!");
+//        document.title = window.innerWidth;
     });
     
     $(window).on('hashchange', function (e) {
