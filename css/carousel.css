@@ -26,7 +26,7 @@ body {
 }
 
 
-@media only screen and (min-width : 500px) {
+@media only screen and (min-width : 540px) {
     .carousel{
         position: absolute;
         top: 0;
