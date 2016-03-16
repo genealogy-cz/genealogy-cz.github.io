@@ -18,6 +18,8 @@ h1 {
     padding-right: 10pt;
     padding-top: 7pt;
     padding-bottom: 10pt;
+    -webkit-filter: drop-shadow(14px 14px 14px #000);
+    filter: drop-shadow(14px 14px 14px #000);
 }
 
 
