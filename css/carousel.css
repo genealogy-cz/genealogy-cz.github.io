@@ -21,12 +21,12 @@ body {
 }
 
 .carousel .item img{
-    height: 320px;
+    height: 350px;
     overflow-x: hidden;
 }
 
 
-@media only screen and (min-width : 550px) {
+@media only screen and (min-width : 500px) {
     .carousel{
         position: absolute;
         top: 0;
