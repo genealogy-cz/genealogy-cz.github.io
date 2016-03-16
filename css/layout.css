@@ -5,21 +5,10 @@
 
 @media only screen and (min-height : 380px) {
     .navbar .navbar-collapse {
-    max-height: none;
-    overflow-y: hidden;
+        max-height: none;
+        overflow-y: hidden;
+    }
 }
-}
-
-
-
-/*
-@font-face {
-  font-family: 'Proxima Nova';
-  font-style:  normal;
-  font-weight: 400;
-  src: url(link-to-proxima-nova-font.woff) format('woff');
-}
-*/
 
 h1 {
     padding-bottom: 10pt;
@@ -31,9 +20,6 @@ h1 {
     padding-bottom: 10pt;
 }
 
-.even {
-    background-color: #F2EBD8;
-}
 
 #footer-top {
     background-color: #303030;
@@ -42,10 +28,6 @@ h1 {
 
 #footer-bottom {
     background-color: #555;
-/*
-    top: auto;
-    bottom: 0;    
-*/
 }
 
 .social:hover {
@@ -60,23 +42,6 @@ h1 {
     text-align: left;
 }
 
-.bookmark {
-/*    padding-top: 190px;*/
-    
-/*
-    display: block;
-    position: relative;
-    top: -100px;
-    visibility: hidden;
-*/
-    
-/*
-    padding-top: 190px;
-    margin-top: -190px;
-    display: inline-block;  required for webkit browsers 
-*/
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 26px;
@@ -87,17 +52,16 @@ body {
 .section {
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: white;
+}
+
+.even {
+    background-color: #F2EBD8;
 }
 
 #motto {
     margin-top: 10px;
 }
-
-/*
-#brand span {
-    color: white;
-}
-*/
 
 #search-container {
     margin-top: 10px;
@@ -144,10 +108,6 @@ body {
     top: 0;
     width: 100%;
     z-index:10;
-/*
-    -webkit-transition: all 2s ease-in;
-    transition: all 1s ease-in;
-*/
 }
 
 .affix + .container-fluid {
@@ -158,20 +118,6 @@ body {
 {
    -webkit-backface-visibility: hidden;
 }
-
-/*
-.divider-vertical {
-    height: 40px;
-    margin: 0 9px;
-    border-left: 1px solid #f2f2f2;
-    border-right: 1px solid #ffffff;
-}
-*/
-
-/*
- Center nav-pills 
-.center-pills { display: inline-block; }
-*/
 
 /* Block pull-right on small screens */
 .pull-right-sm {
@@ -196,29 +142,16 @@ body {
 }
 
 .background-photo {
-/*    height: 300px;*/
     background-image: url(/img/photos/granite-mountain-records-vault-film-cabinets-692652-tablet.jpg);
-/*    width: 100%;*/
     height: 100%;  
-/*    background-size: 100%;*/
-/*    background-size: contain;*/
-/*    background-size:100% auto;*/
     background-repeat: no-repeat;
-/*    background-position: none;*/
     position: relative;    
 }
 
-
 @media only screen and (min-width : 530px) {
     .background-photo {
-/*    height: 300px;*/
-/*    width: 100%;*/
-/*    height: 100%;  */
-/*    background-size: 100%;*/
-/*    background-size: contain;*/
         background-size:100% auto;
         background-repeat: no-repeat;
-    /*    background-position: none;*/
         position: relative;    
     }
 }
@@ -233,22 +166,9 @@ body {
     .pull-right-sm {
         float: right;
     }
-
     
-/*
-    #search-container{
-        padding-left: 10%;
-        margin-top: 0;
-        padding-right: 30%;
-    }
-*/
     #search-container {
-/*        margin-top: 10%;*/
         margin-bottom: 30px;
-/*
-        padding-left: 10%;
-        padding-right: 30%;
-*/
     }
     #motto {
         margin-top: 40px;        
@@ -275,60 +195,8 @@ body {
     }
     
 }
-/*
-    .social-btn {
-        width: auto;
-    }
-*/
-/*
-    #search-container {
-        margin-top: 10%;
-        margin-bottom: 80px;
-    }
-*/
-    
-/* Centered (only when not collapsed) */
-/*
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-    }
-
-    .navbar .navbar-collapse {
-        text-align: center;
-    }
-*/
-    
-    
-    
-/* Justified (only when not collapsed) */
-/*
-    .navbar-nav {
-        margin: 0 auto;
-        display: table;
-        table-layout: auto;
-        float: none;
-        width: 100%;
-    }
-    .navbar-nav>li {
-        display: table-cell;
-        float: none;
-        text-align: center;
-    }
-*/
 }
 
-
-
-
-
-/*
-.navbar .navbar-collapse {
-    max-height: 100%;
-    overflow-y: hidden;
-}
-*/
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
@@ -363,12 +231,7 @@ body {
         text-align: right;
         margin: 10px 0;
     }
-/*
-    .section {
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-*/
+    
     .section img {
         padding-bottom: auto;
     }
@@ -380,4 +243,13 @@ body {
     .social-btn {
         width: auto;
     }
+}
+
+#motto {
+    text-shadow: 3px 3px 3px #000;
+}
+
+#search-container img {
+    -webkit-filter: drop-shadow(4px 4px 4px #000);
+    filter: drop-shadow(4px 4px 4px #000);
 }

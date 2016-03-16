@@ -1,0 +1,72 @@
+body {
+    overflow-x: hidden; /* block horizontall scrollbar by carousel on small screens */
+}
+
+.carousel{
+    position: absolute;
+    top: 0;
+/*    max-width: 100%;*/
+/*    background-color: transparent;*/
+    background-size: contain;
+    
+/*    background-size:100% auto;*/
+    background: #2f4357;
+    margin-top: 0px;   
+    overflow-x: hidden;
+    z-index: -99;
+}
+
+.carousel .item{
+    overflow-x: hidden;
+}
+
+.carousel .item img{
+    height: 350px;
+    overflow-x: hidden;
+}
+
+
+@media only screen and (min-width : 510px) {
+    .carousel{
+        position: absolute;
+        top: 0;
+        min-width: 100%;
+        background-size: contain;
+        background: #2f4357;
+        margin-top: 0px;   
+        overflow: hidden;
+        z-index: -99;
+    }
+
+    .carousel .item img{
+        min-width: 100%;
+        height: auto;
+    }   
+}
+
+
+/* Fade transition for carousel items */
+.carousel .item {
+    left: 0 !important;
+    -webkit-transition: opacity .8s; /*adjust timing here */
+    -moz-transition: opacity .8s;
+    -ms-transition: opacity 5s;
+    -o-transition: opacity .8s;
+    transition: opacity .8s;
+}
+
+.carousel-control {
+    background-image: none !important; /* remove background gradients on controls */
+}
+
+/* Fade controls with items */
+.next.left,
+.prev.right {
+    opacity: 1;
+    z-index: 1;
+}
+.active.left,
+.active.right {
+    opacity: 0;
+    z-index: 2;
+}
