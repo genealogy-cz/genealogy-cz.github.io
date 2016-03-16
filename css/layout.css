@@ -59,12 +59,14 @@ body {
     background-color: #F2EBD8;
 }
 
+/*
 #motto {
     margin-top: 10px;
 }
+*/
 
 #search-container {
-    margin-top: 10px;
+/*    margin-top: 10px;*/
     margin-bottom: 10px;
 }
 
@@ -170,9 +172,11 @@ body {
     #search-container {
         margin-bottom: 30px;
     }
+/*
     #motto {
         margin-top: 40px;        
     }
+*/
 }
 
 #contact-text {
