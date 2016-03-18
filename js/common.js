@@ -2,9 +2,6 @@
 /*global $, jQuery, alert*/
 
 var
-    LOCAL_STORAGE = 'localStorage',
-    LOCALE_ITEM = 'locale',
-        
     FALLBACK_LOCALE = 'cs-cz',
 
     language_lookup = {
@@ -94,6 +91,6 @@ var
     dir_lookup = {
         "en-us" : "/en/",
         "en-gb" : "/en/",
-        "cs-cz" : "/"    // root
+        "cs-cz" : "/"       // root
     };
     

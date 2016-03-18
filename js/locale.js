@@ -4,8 +4,6 @@
     jQuery,
     alert,
     dir_lookup,
-    LOCAL_STORAGE,
-    LOCALE_ITEM,
     language_lookup,
     FALLBACK_LOCALE,
     region_lookup*/
@@ -13,7 +11,10 @@
 (function () {
     "use strict";
     
-    var $locale;
+    var 
+		LOCAL_STORAGE = 'localStorage',
+		LOCALE_ITEM = 'locale',
+		$locale;
 
     function checkLocale(loc) {
         return loc && dir_lookup[loc];
