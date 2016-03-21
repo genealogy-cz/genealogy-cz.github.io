@@ -22,7 +22,6 @@ h1 {
     filter: drop-shadow(14px 14px 14px #000);
 }
 
-
 #footer-top {
     background-color: #303030;
     height: 60px;
@@ -50,6 +49,7 @@ body {
     position: relative; /* for scrollspy */
     height: 100%;       /* for scrollspy*/
 }
+
 
 .section {
     padding-top: 30px;

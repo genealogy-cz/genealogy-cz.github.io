@@ -4,4 +4,4 @@ Simona Danielová
 
 Tel.: [603 182 526](tel: 603 182 526)
 
-E-mail: [simona@genealogy-cz.com](mailto: simona@genealogy-cz.com)
+E-mail: [simonada@email.cz](mailto: simonada@email.cz)
