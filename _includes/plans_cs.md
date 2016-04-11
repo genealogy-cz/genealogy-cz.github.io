@@ -10,6 +10,10 @@ Existují 3 druhy záznamů:
 
 1 záznam = 100 Kč
 
+1 záznam narození sourozence = 70&nbsp;Kč
+
 Základní údaje tvoří narození a sňatek.
 
 Během sestavování rodokmenu budete průběžně informováni o ceně a množství informací dosud obsažených ve Vašem rodokmenu. Sami si tak budete moci určit, kolik peněz chcete do rodokmenu investovat.
+
+Orientační cena vývodu od výchozí osoby do 5. generace (15 manželských párů) se pohybuje kolem 4 500 Kč.

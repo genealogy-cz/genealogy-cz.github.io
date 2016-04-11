@@ -11,6 +11,10 @@ There are three types of records:
 
 1 record = 100 Kč (CZE, Czech Crowns)
 
+1 record of a sibling's birth = 70&nbsp;Kč (CZE, Czech Crowns)
+
 The basic data is the birth and marriage.
 
 During the compilation of the family tree you will be kept informed of the price and the amount of information your family tree contains to date. You will decide how much to invest to your family tree.
+
+Hint: the indicative price of building a subtree from the entry person up to the fifth generation (15 couples) would be around 4 500 Kč (CZE, Czech Crowns).
