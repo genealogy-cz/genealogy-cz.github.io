@@ -9,9 +9,9 @@ There are three types of records:
 * date and place of death (registry of deaths)
 
 
-1 record = 100 Kč (CZE, Czech Crowns)
+1 record = $5.00
 
-1 record of a sibling's birth = 70&nbsp;Kč (CZE, Czech Crowns)
+1 record of a sibling's birth = $3.00
 
 The basic data is the birth and marriage.
 
