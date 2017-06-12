@@ -1,0 +1,34 @@
+<!-- Begin Cookie Consent plugin by Insites - https://cookieconsent.insites.com/download/# -->
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+
+<script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#000"
+        },
+        "button": {
+          "background": "#f1d600"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "Tato webová stránka používá cookies ke zlepšení prohlížení webu a poskytování dalších funkcí.",
+        "dismiss": "Souhlasím",
+        "link": "Detaily",
+        "href": "https://cs.wikipedia.org/wiki/HTTP_cookie"
+      },
+      /* z-orger of the cookie consent bar is set higher, so it pops up atop smartsupp
+      "onPopupOpen": function() {
+        moveSmartsuppRight();
+      },
+      "onPopupClose": function() {
+        moveSmartsuppDown();
+      },*/
+      "location": true
+    })});
+</script>
+<!-- End Cookie Consent plugin -->
