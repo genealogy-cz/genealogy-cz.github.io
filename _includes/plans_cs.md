@@ -12,7 +12,7 @@ Existují 3 druhy záznamů:
 
 1 záznam (1400 - 1800) = 120&nbsp;Kč
 
-1 záznam narození sourozence = 100&nbsp;Kč
+1 záznam narození sourozence = 70&nbsp;Kč
 
 Základní údaje tvoří narození a sňatek.
 
