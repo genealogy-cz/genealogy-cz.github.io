@@ -13,6 +13,7 @@ There are three types of records:
 
 1 record = $7
 
+<br>
 **In the case of searching direct ancestors and the births of their siblings:**
 
 1 record = $5

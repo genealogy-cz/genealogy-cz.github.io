@@ -13,6 +13,7 @@ Existují 3 druhy záznamů:
 
 1 záznam = 150 Kč
 
+<br>
 **V případě dohledávání přímých předků i narození jejich sourozenců:**
 
 1 záznam = 100 Kč
