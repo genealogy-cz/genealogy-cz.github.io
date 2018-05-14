@@ -8,6 +8,7 @@ There are three types of records:
 
 * date and place of death (registry of deaths)
 
+<br>
 **In the case of searching direct ancestors only:**
 
 1 record = $7
@@ -18,6 +19,7 @@ There are three types of records:
 
 1 record of a sibling's birth = $4
 
+<br>
 The basic data is the birth and marriage.
 
 During the compilation of the family tree you will be kept informed of the price and the amount of information your family tree contains to date. You will decide how much to invest to your family tree.
