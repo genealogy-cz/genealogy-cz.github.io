@@ -12,7 +12,9 @@ There are three types of records:
 1 record = $7
 
 **In the case of searchig direct ancestors and the births of their siblings:**
+
 1 record = $5
+
 1 record of a sigling's birth = $4
 
 The basic data is the birth and marriage.
