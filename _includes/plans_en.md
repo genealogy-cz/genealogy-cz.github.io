@@ -8,12 +8,12 @@ There are three types of records:
 
 * date and place of death (registry of deaths)
 
+**In the case of searchig direct ancestors only:**
+1 record = $7
 
-1 record (1800 - current time) = $5
-
-1 record (1400 - 1800) = $6
-
-1 record of a sibling's birth = $4
+**In the case of searchig direct ancestors and the births of their siblings:**
+1 record = $5
+1 record of a sigling's birth = $4
 
 The basic data is the birth and marriage.
 
