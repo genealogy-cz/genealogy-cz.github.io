@@ -8,7 +8,6 @@ Existují 3 druhy záznamů:
 
 * místo a datum úmrtí (matrika zemřelých)
 
-1 záznam (1800 - nyní) = 100&nbsp;Kč
 
 **V případě dohledávání pouze přímých předků:**
 
